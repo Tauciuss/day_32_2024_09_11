@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5"></div>
+        <form class="input-group" onsubmit="searchMovie(event)">
+            <input type="text" class="form-control" placeholder="Enter movies name">
+            <button class="btn btn-primary">Search</button>
+        </form>
+        <div class="alphabet"></div>
+        <div class="result pt-4"></div>
+        <div class="pages">
+            <button class="last-button" onclick="pageDown()">Previous</button>
+            <div class="pages-container"></div>
+            <button class="next-button" onclick="pageUp()">Next</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

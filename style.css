@@ -1,0 +1,94 @@
+.input-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.input-group input{
+    width: 30%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-width: 1px;
+}
+.input-group button{
+    background-color: white;
+    border-width: 1px;
+    border-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.thumbnails{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.thumbnails img{
+    width: 100%;
+}
+
+.thumbnail:hover{
+    cursor: pointer;
+}
+.thumbnail-title{
+    margin-top: none;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+}
+
+.pages button{
+    width: 90px;
+    height: 20px;
+    margin: auto 10px;
+    margin-top: 15px;
+    background-color: white;
+    border-width: 1px;
+}
+
+.pages button:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.pages button:nth-child(3){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.pages-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pages p:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+
+.movie-info{
+    display: flex;
+    justify-content: center;
+}
+
+.plot{
+    padding-left: 20px;
+    word-break: normal;
+}
+
+.text-area{
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.actors{
+    margin-top: 10px;
+}
